@@ -1,10 +1,11 @@
 from collections import deque
+import sys
 
 n = int(input())
 dq = deque()
 
 for _ in range(n):
-    cmd = input().split()
+    cmd = sys.stdin.readline().split()
     
     if cmd[0] == 'push_front':
         dq.appendleft(cmd[1])
