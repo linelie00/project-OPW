@@ -3,7 +3,6 @@ import sys
 sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
 
-
 def dfs(node):
     visited[node] = True
     for i in graph[node]:
@@ -28,5 +27,5 @@ for i in range(1,n+1):
         else:
             dfs(i)
             count += 1
-            
+
 print(count)
