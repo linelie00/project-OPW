@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 m = int(input())
 s = set()
 for _ in range(m):
