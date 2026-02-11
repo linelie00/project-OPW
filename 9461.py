@@ -7,6 +7,5 @@ dp[0],dp[1],dp[2] = 1,1,1
 for i in range(3, m):
     dp[i] = dp[i-2]+dp[i-3]
 
-print(dp)
 for i in N:
     print(dp[i-1])
