@@ -1,4 +1,7 @@
+import sys
 from collections import deque
+
+input = sys.stdin.readline
 
 M,N,H = map(int, input().split())
 board = [[list(map(int,input().split())) for _ in range(N)] for _ in range(H)]
@@ -33,4 +36,4 @@ for h in range(H):
                 print(-1)
                 exit()
             time = max(time,board[h][i][j])
-print(time)
+print(time-1)
