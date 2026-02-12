@@ -1,2 +1,3 @@
 # project opw
-### 코딩테스트 준비를 위한 레포지토리
+### 문제 풀이 링크
+https://www.notion.so/2b59be8ceaa180539cadcddbb17061ea?source=copy_link
