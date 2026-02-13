@@ -2,7 +2,7 @@ K,N = map(int,input().split())
 lan = [int(input()) for _ in range(K)]
 left,right = 1, max(lan)
 
-while left < right:
+while left <= right:
     mid = (left+right)//2
     lines = 0
     for x in lan:
@@ -11,4 +11,4 @@ while left < right:
         left = mid+1
     else:
         right = mid-1
-print(left,right)
+print(right)
