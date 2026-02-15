@@ -11,5 +11,7 @@ for coin in coins:
     for i in range(coin, k+1):
         dp[i] = min(dp[i],dp[i-coin]+1)
 
-print(dp[-1])
-print(dp)
+if dp[-1] == INF:
+    print(-1)
+else:
+    print(dp[-1])
