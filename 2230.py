@@ -13,4 +13,6 @@ while right < N:
     else:
         ans = min(ans,diff)
         left += 1
+        if left > right:   # left가 right를 추월하면 right도 같이 이동
+            right = left
 print(ans)
