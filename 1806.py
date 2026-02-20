@@ -15,7 +15,7 @@ while right < N:
         left += 1
         if left>right:
             right = left
-            
+
 if ans == 10**15:
     print(0)
 else:
