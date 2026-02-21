@@ -17,8 +17,8 @@ def check(x,y,num):
 
 def dfs(idx):
     if idx == len(blank):
-        for row in sudoku:
-            print(*row)
+        for r in sudoku:
+            print(''.join(map(str, r)))
         exit()
     
     for num in range(1,10):
