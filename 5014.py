@@ -9,7 +9,7 @@ dist[S] = 0
 while que:
     x = que.popleft()
     if x == G:
-        print(dist[-1])
+        print(dist[x])
         exit()
     ux = x+U
     if 1<=ux<=F and dist[ux] == -1:
