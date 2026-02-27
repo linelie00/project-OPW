@@ -15,9 +15,7 @@ while True:
         weight += t[0]
         que.append((t.popleft(),time))
     
-    
     if not t and not que:
         break
-    print(que,t,time)
     
 print(time)
