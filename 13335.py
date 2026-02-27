@@ -14,7 +14,6 @@ while True:
     if t and weight + t[0] <= L:
         weight += t[0]
         que.append((t.popleft(),time))
-    
     if not t and not que:
         break
     
